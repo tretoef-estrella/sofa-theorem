@@ -1,0 +1,8 @@
+COLLAR RANKS ENGINE v1 — independent certificate of Theorem 4.3
+==================================================================
+f=0: rank(A_f)= 45  rank(sym)= 35  dim D_f= 10  target  10  PASS
+f=1: rank(A_f)=180  rank(sym)=125  dim D_f= 55  target  55  PASS
+f=2: rank(A_f)=405  rank(sym)=260  dim D_f=145  target 145  PASS
+f=3: rank(A_f)=720  rank(sym)=440  dim D_f=280  target 280  PASS
+==================================================================
+VERDICT: ALL FOUR RANKS CERTIFIED — dim D_f = 10,55,145,280

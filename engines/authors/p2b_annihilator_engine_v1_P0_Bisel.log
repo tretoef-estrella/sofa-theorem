@@ -1,0 +1,23 @@
+sheets=15 (expect 15)
+  [N3 frame-syzygies] cols=138 slots=45
+    pairs=315 basis=318 COMPLETE
+    kernel gens (graded pieces)=12
+    pairs=18 basis=12 COMPLETE
+    max lead deg=6, series width=10
+  [M' dual annihilator] cols=277 slots=90
+    pairs=794 basis=672 COMPLETE
+    kernel gens (graded pieces)=43
+    pairs=207 basis=43 COMPLETE
+    max lead deg=6, series width=10
+
+GATE (v=2 dual anchors, c=0..8):
+  computed: 0 0 0 0 0 0 15 45 90
+  control : 0 0 0 0 0 0 15 45 90  -> PASS
+consistency c=9..12 (v=2 collar values, law): 150(vs 150) 225(vs 225) 315(vs 315) 420(vs 420)
+LAW ann_c = 15*C(c-4,2), c=0..120 (series widths 10/10): ALL MATCH
+
+==========================================================================
+  P2'-b MAIN BODY CERTIFIED (q-free): ann_c = 15*C(c-4,2) FOR ALL c
+  => A_d = 15*N_q(d) for all d >= 2q+4, FOR ALL v (Gorenstein duality)
+  remaining: the finite collar c in [q,q+3]  (d in [2q,2q+3])
+==========================================================================

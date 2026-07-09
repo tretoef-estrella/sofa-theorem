@@ -1,0 +1,12 @@
+EXTENDED GB complete: basis=336, pairs=389
+zero-y GB elements -> M-generators: 33; degrees: [0, 1, 2, 3, 4, 5, 6]
+GATE A (edge conditions on 23 gens of deg<=4): PASS
+STAGE B GB of M complete: basis=36, pairs=127, max lead deg=6
+GATE B: HF_M(0..5) = [1, 11, 52, 171, 456, 1032]  control = [1, 11, 52, 171, 456, 1032]  -> PASS
+sigma_e CERTIFIED, e=0..12: [0, 0, 1, 5, 25, 70, 145, 250, 385, 550, 745, 970, 1225]
+GATE C: law 15e^2-90e+145 for e=4..100 (series width 10): ALL MATCH — PROVEN FOR ALL e
+
+==========================================================================
+  P2'-a CLOSED: sigma_e = 15e^2 - 90e + 145 FOR ALL e >= 4  —  CERTIFIED
+  (three gates passed: edge-conditions, control dims, full-series law)
+==========================================================================
