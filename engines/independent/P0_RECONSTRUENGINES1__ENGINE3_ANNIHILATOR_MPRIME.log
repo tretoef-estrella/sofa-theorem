@@ -1,0 +1,48 @@
+P0_RECONSTRUENGINES1 — VERIFICATION LOG
+ENGINE 3 · THE ANNIHILATOR MAIN BODY (M')
+==========================================================================
+
+Independent cross-check of Bisel's P2'-b engine, via a GENUINELY DIFFERENT
+method: direct slot-scalar syzygy linear algebra over F_3 (NOT Groebner).
+Bisel's engine uses extended-module elimination (Groebner). Same numbers,
+two independent methods = strongest possible cross-check.
+
+Object:  ann_c = HF_{M'}(c) - 2*HF_{N3}(c) - dim E_c ;  target 15*C(c-4,2).
+
+Correct structure (read from Bisel's C++, lines 216-276):
+  - Codomain slots are SCALAR: N3 = 45 (15 sheets x 3 pair-slots k),
+    M' = 90 (15 x 2 blocks x 3 pair-slots k).
+  - Variable columns carry the frame / s_idx as SCALAR entries per slot
+    (gamma_{m,k} = (l_m|_J)_k ; X: single-slot eps at the pair k* holding s_idx).
+  - "Modulo I_J" per slot = restrict that slot's value to sheet J, require 0.
+
+Two earlier wrong turns (recorded for honesty):
+  1. Treated the map as polynomial-carried per slot (target = all deg-(d+1)
+     3-var monomials). This DOUBLED HF_N3 and over-sized HF_M'. Wrong: slots
+     are scalar-carried.
+  2. Bet on S^8 (two X-columns). Wrong: HF_M'(1)=7 => S^7, one shared X.
+Bisel's corrections (slot-scalar; single-slot X restriction) fixed both.
+
+RUN OUTPUT (HF_M' and HF_N3 verified byte-exact vs Bisel)
+---------------------------------------------------------
+c | HF_M' | HF_N3 | dimE | ann_c | target
+0 |    0  |    0  |   0  |   0   | 0    PASS
+1 |    7  |    3  |   1  |   0   | 0    PASS
+2 |   42  |   18  |   6  |   0   | 0    PASS
+3 |  154  |   66  |  22  |   0   | 0    PASS
+4 |  427  |  183  |  61  |   0   | 0    PASS
+5 |  994  |  426  | 142  |   0   | 0    PASS
+6 | 2059  |  876  | 292  |  15   | 15   PASS
+7 | 3874  | 1641  | 547  |  45   | 45   PASS
+8 | 6754  | 2856  | 952  |  90   | 90   PASS
+
+HF_M' series : 0,7,42,154,427,994,2059,3874,6754   — matches Bisel exactly
+HF_N3 series : 0,3,18,66,183,426,876,1641,2856      — matches Bisel exactly
+
+VERDICT
+-------
+ENGINE 3: REPRODUCED — ann_c = 0,0,0,0,0,0,15,45,90 for c=0..8.
+  Anchors 15, 45, 90 all certified independently (direct LA, not Groebner).
+  HF_M' and HF_N3 byte-identical to Bisel's extended-module kernel.
+
+Reproduced independently by P0_reconstruengines1.

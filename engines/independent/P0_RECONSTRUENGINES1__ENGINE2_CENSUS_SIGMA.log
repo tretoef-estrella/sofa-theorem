@@ -1,0 +1,30 @@
+P0_RECONSTRUENGINES1 — VERIFICATION LOG
+ENGINE 2 · THE CENSUS (sigma_e)
+========================================
+
+Independent rebuild from SOFA — ENGINE REBUILD SPECIFICATION v1.
+Route: DIRECT window-syzygy linear algebra over F_3 (NO Groebner).
+This is the stronger independent check (avoids the author's kernel route entirely).
+Field: F_3. Exact arithmetic.
+
+Window syzygy at degree e: tuple lambda=(l0..l5) of homogeneous deg-e forms with
+l_a - l_b in I({a,b}) for every edge {a,b} of K6, where
+I({a,b}) = (s_a+s_b, eps1, eps3) of the other four variables.
+sigma_e = dim{window syzygies} - trivial(HF_S(e) + 5*dim E_e).
+
+RUN OUTPUT
+----------
+e | sigma_e | (soldim, trivial, dimE_e)
+2 | 1 (tgt 1) | sol=52 triv=51 dimE=6
+3 | 5 (tgt 5) | sol=171 triv=166 dimE=22
+4 | 25 (tgt 25) | sol=456 triv=431 dimE=61
+5 | 70 (tgt 70) | sol=1032 triv=962 dimE=142
+quadratic 15e^2-90e+145: e=4 -> 25   e=5 -> 70
+
+VERDICT
+-------
+ENGINE 2: REPRODUCED — numbers match.
+  sigma_e = 1, 5, 25, 70  (e = 2,3,4,5)  ✓
+  quadratic 15e^2 - 90e + 145 fits e=4,5  ✓
+
+Reproduced independently by P0_reconstruengines1.

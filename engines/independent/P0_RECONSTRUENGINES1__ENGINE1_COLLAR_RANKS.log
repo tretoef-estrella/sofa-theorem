@@ -1,0 +1,24 @@
+P0_RECONSTRUENGINES1 — VERIFICATION LOG
+ENGINE 1 · COLLAR RANKS (dim D_f)
+========================================
+
+Independent rebuild from SOFA — ENGINE REBUILD SPECIFICATION v1.
+Built from scratch (no access to original author's code).
+Field: F_3. Exact arithmetic. Gaussian elimination mod 3.
+
+RUN OUTPUT
+----------
+f | rank(A_f) | rS | dim D_f
+0 | 45 (tgt 45) | 35 (tgt 35) | 10 (tgt 10)
+1 | 180 (tgt 180) | 125 (tgt 125) | 55 (tgt 55)
+2 | 405 (tgt 405) | 260 (tgt 260) | 145 (tgt 145)
+3 | 720 (tgt 720) | 440 (tgt 440) | 280 (tgt 280)
+
+VERDICT
+-------
+ENGINE 1: REPRODUCED — numbers match.
+  dim D_f = 10, 55, 145, 280  (f = 0,1,2,3)  ✓
+  rank(A_f) = 45, 180, 405, 720  ✓
+  rS        = 35, 125, 260, 440  ✓
+
+Reproduced independently by P0_reconstruengines1.
