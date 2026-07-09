@@ -17,7 +17,7 @@ $$A(q)=\dim_{\mathbb{F}_3} S/\big(E+\mathfrak{m}^{[q]}\big),\qquad \mathfrak{m}^
 
 $$A(q)=P(q)=15q^3-45q^2+55q-24.$$
 
-Equivalently, the diagonal sublattice $\Sigma\,1_J=\operatorname{im}(\Delta)$ is **saturated** in $\bigoplus_J \mathcal{O}^{\otimes 3}$ at every level of the tower. This establishes **Conjecture 1.2 of Degtyarev–Shimada** ([arXiv:1711.02628](https://arxiv.org/abs/1711.02628)) for the degree-$3^v$ Fermat fourfolds — the integral Hodge statement along the tower, open since 2017.
+Equivalently, the diagonal sublattice $\Sigma\,1_J=\mathrm{im}(\Delta)$ is **saturated** in $\bigoplus_J \mathcal{O}^{\otimes 3}$ at every level of the tower. This establishes **Conjecture 1.2 of Degtyarev–Shimada** ([arXiv:1711.02628](https://arxiv.org/abs/1711.02628)) for the degree-$3^v$ Fermat fourfolds — the integral Hodge statement along the tower, open since 2017.
 
 ---
 
