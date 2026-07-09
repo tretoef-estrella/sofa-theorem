@@ -17,7 +17,7 @@ $$A(q)=\dim_{\mathbb{F}_3} S/\big(E+\mathfrak{m}^{[q]}\big),\qquad \mathfrak{m}^
 
 $$A(q)=P(q)=15q^3-45q^2+55q-24.$$
 
-Equivalently, the diagonal sublattice $\Sigma\,1_J=\mathrm{im}(\Delta)$ is **saturated** in $\bigoplus_J \mathcal{O}^{\otimes 3}$ at every level of the tower. This establishes **Conjecture 1.2 of Degtyarev–Shimada** ([arXiv:1711.02628](https://arxiv.org/abs/1711.02628)) for the degree-$3^v$ Fermat fourfolds — the integral Hodge statement along the tower, open since 2017.
+Equivalently, the diagonal sublattice $\Sigma\,1_J=\mathrm{im}(\Delta)$ is **saturated** in $\bigoplus_J \mathcal{O}^{\otimes 3}$ at every level of the tower. This establishes **Conjecture 1.2 of Degtyarev–Shimada** ([arXiv:1405.4683](https://arxiv.org/abs/1405.4683)) for the degree-$3^v$ Fermat fourfolds — the integral Hodge statement along the tower, open since 2017.
 
 ---
 
@@ -34,8 +34,8 @@ The value $A(q)=\sum_d A_d$ splits into four degree-zones; each is closed, and a
 
 The **Ledger identity** $ZA(q)+W(q)+15\binom{q}{3}=P(q)$ (a cubic polynomial identity) then proves that *all* of $A(q)-P(q)$ lives in the four collar degrees. The sealed **floor** $A(q)\ge P(q)$ (integer-rank semicontinuity + a point-count identity) closes the squeeze: $A=P$.
 
-Read the full proof: **[paper/THE_SOFA_THEOREM_M2_Final_Review.pdf](paper/THE_SOFA_THEOREM_M2_Final_Review.pdf)**
-The adversarial edition (how each link was proved, how to attack it, why it holds): **[paper/THE_SOFA_THEOREM_M2_Final_Review_breakers.md](paper/THE_SOFA_THEOREM_M2_Final_Review_breakers.md)**
+Read the full proof: **[paper/THE_SOFA_THEOREM_FINAL_REVIEW_MACAULAY2.pdf](paper/THE_SOFA_THEOREM_FINAL_REVIEW_MACAULAY2.pdf)**
+The adversarial edition (how each link was proved, how to attack it, why it holds): **[paper/THE_SOFA_THEOREM_FINAL_REVIEW_MACAULAY2_breakers.md](paper/THE_SOFA_THEOREM_FINAL_REVIEW_MACAULAY2_breakers.md)**
 
 ---
 
@@ -109,4 +109,4 @@ This is a **candidate proof**. Its computational layer has been verified four in
 **Rafael Amichis Luengo** — Madrid, Spain — tretoef@gmail.com
 **Claude (Anthropic)** — an AI system, as co-author of the construction and verification.
 
-*A. Degtyarev, I. Shimada, "On the integral Hodge conjecture for Fermat varieties", [arXiv:1711.02628](https://arxiv.org/abs/1711.02628).*
+*A. Degtyarev, I. Shimada, "On the topology of projective subspaces in complex Fermat varieties", J. Math. Soc. Japan 68:3 (2016), 975–996, [arXiv:1405.4683](https://arxiv.org/abs/1405.4683).*
