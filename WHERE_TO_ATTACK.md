@@ -15,7 +15,7 @@
 
 ### 3. Proposition 1.3 (the floor A ≥ P) — the pillar proved elsewhere
 **The risk:** the paper states the floor in one line; its proof lived in project files, not in the paper.
-**What we did:** full standalone write-up now in this repository (`THE_FLOOR_THEOREM_standalone.md`): the floor is the semicontinuity of integer-matrix rank under reduction mod 3, plus the sealed Point-Count identity `P(3^v) = |X_v(F₃)|` (verified byte-exact at v = 1, 2, 3: 141, 7761, 263901, engine and data files archived). The one imported identification — that P is the characteristic-0 dimension — is the Degtyarev–Shimada framework itself (arXiv:1711.02628), i.e., the definition of their target, not something we assert.
+**What we did:** full standalone write-up now in this repository (`THE_FLOOR_THEOREM_standalone.md`): the floor is the semicontinuity of integer-matrix rank under reduction mod 3, plus the sealed Point-Count identity `P(3^v) = |X_v(F₃)|` (verified byte-exact at v = 1, 2, 3: 141, 7761, 263901, engine and data files archived). The one imported identification — that P is the characteristic-0 dimension — is the Degtyarev–Shimada framework itself (arXiv:1405.4683), i.e., the definition of their target, not something we assert.
 **What remains for a referee:** confirm the char-0 identification against [DS] and re-run the point-count engine (seconds).
 
 ### 4. The geometric translation (algebra ⟷ DS Conjecture 1.2)
