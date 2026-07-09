@@ -1,6 +1,6 @@
 # Other results from the development
 
-The eight key theorems (see the [main README](README.md) and [theorem guide](THE_THEOREMS_GUIDE.md)) carry the main proof and are provided in full, in Markdown and PDF. Beyond them, the development produced a number of further results — structural stepping-stones used to assemble the proof, and a few lemmas of independent interest. They are catalogued here for completeness.
+The eight key theorems (see the [main README](https://github.com/tretoef-estrella/sofa-theorem/blob/main/README.md)) carry the main proof and are provided in full, in Markdown and PDF. Beyond them, the development produced a number of further results — structural stepping-stones used to assemble the proof, and a few lemmas of independent interest. They are catalogued here for completeness.
 
 These are **supporting machinery**: each is used inside the proof of one of the key theorems or the main paper, and each is stated and used there. They are listed so that a reader following a specific step knows the result has a name and a self-contained argument.
 
@@ -20,4 +20,4 @@ These are **supporting machinery**: each is used inside the proof of one of the 
 The full write-ups of these supporting results are available on request to anyone undertaking a detailed review — write to **tretoef@gmail.com**. The main proof and its eight key theorems are self-contained without them.
 
 ---
-*Part of **The Sofa Theorem** — github.com/tretoef-estrella/sofa-theorem*
+*Part of **The Sofa Theorem** — [github.com/tretoef-estrella/sofa-theorem](https://github.com/tretoef-estrella/sofa-theorem)*
