@@ -2,6 +2,8 @@
 
 ### The Diagonal is Saturated: Degtyarev–Shimada Conjecture 1.2 for the $3^v$ Fermat Tower
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21288551.svg)](https://doi.org/10.5281/zenodo.21288551)
+
 > **Status:** candidate proof · computationally verified **four independent ways** (including Macaulay2) · seven independent logical reviews across four AI model families · **awaiting expert human review.**
 > This is offered to the mathematical community precisely so that it can be examined, reproduced, and — if it holds — used. If you can break any link, the byte-exact discrepancy is more valuable to us than agreement.
 
@@ -95,6 +97,8 @@ engines/        all computational certificates:
   independent/    the from-scratch reconstruction with logs
 verification/   the unified dossier + logical & computational review records
 ```
+
+Permanent archive (DOI): **[10.5281/zenodo.21288551](https://doi.org/10.5281/zenodo.21288551)**
 
 Supporting documents: [HOW_TO_VERIFY.md](HOW_TO_VERIFY.md) · [WHERE_TO_ATTACK.md](WHERE_TO_ATTACK.md) · [THE_STORY.md](THE_STORY.md) · [CITATION.md](CITATION.md) · [LICENSE](LICENSE)
 
